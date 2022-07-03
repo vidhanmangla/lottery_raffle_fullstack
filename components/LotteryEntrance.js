@@ -109,7 +109,7 @@ export default function LotteryEntrance() {
 
     return (
         <div className="p-5">
-            <h1 className="py-4 px-4 font-bold text-3xl">Powered by the Ethereum blockchain and Chainlink's Oracle.</h1>
+            <h1 className="py-4 px-4 font-bold text-3xl">Powered by the Ethereum blockchain and Chainlink&apos;s Oracle.</h1>
             <br></br>
             {raffleAddress ? (
                 <>
