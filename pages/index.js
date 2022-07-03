@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import LotteryEntrance from "../components/LotteryEntrance";
 import { useMoralis } from "react-moralis";
 
-const supportedChains = ["31337", "4"];
+const supportedChains = ["4"];
 
 export default function Home() {
   const { isWeb3Enabled, chainId } = useMoralis();
@@ -24,7 +24,7 @@ export default function Home() {
               <LotteryEntrance className="p-8" />
             </div>
           ) : (
-            <div>{`Please switch to a supported chainId. The supported Chain Ids are: ${supportedChains}`}</div>
+            <div>{`Please switch to a supported chain ID. The supported chain ID is: ${supportedChains}`}</div>
           )}
         </div>
       ) : (
