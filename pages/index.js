@@ -28,7 +28,7 @@ export default function Home() {
           )}
         </div>
       ) : (
-        <div>Please connect to a Wallet</div>
+        <div>Please connect to an Ethereum Wallet.</div>
       )}
     </div>
   );

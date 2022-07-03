@@ -135,7 +135,7 @@ export default function LotteryEntrance() {
                     <div>The most previous winner was: {recentWinner}</div>
                 </>
             ) : (
-                <div>Please connect to a supported chain </div>
+                <div>Please connect to a supported chain.</div>
             )}
         </div>
     )
