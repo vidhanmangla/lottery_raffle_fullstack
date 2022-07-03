@@ -109,7 +109,7 @@ export default function LotteryEntrance() {
 
     return (
         <div className="p-5">
-            <h1 className="py-4 px-4 font-bold text-3xl">Buy raffles to participate!</h1>
+            <h1 className="py-4 px-4 font-bold text-3xl">Buy raffles to participate in this verifiably random, autonomous, decentralised lottery powered by the Ethereum blockchain.</h1>
             {raffleAddress ? (
                 <>
                     <button
