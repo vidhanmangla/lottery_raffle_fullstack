@@ -24,11 +24,11 @@ export default function Home() {
               <LotteryEntrance className="p-8" />
             </div>
           ) : (
-            <div>{`Please switch to a supported chain ID. The supported chain ID is: ${supportedChains}`}</div>
+            <div>{`Jizzy B. says, please switch to a supported chain ID. The supported chain ID is: ${supportedChains}`}</div>
           )}
         </div>
       ) : (
-        <div>Please connect to an Ethereum Wallet.</div>
+        <div>Jizzy B. says, please connect to an Ethereum Wallet.</div>
       )}
     </div>
   );
